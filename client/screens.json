@@ -1,7 +1,7 @@
 {
   "id": "app",
   "name": "webgmt",
-  "startScreen": "app.login",
+  "startScreen": "app.detail",
   "screens": [
     {
       "id": "login",
