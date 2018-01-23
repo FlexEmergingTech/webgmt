@@ -1,0 +1,40 @@
+<ion-view data-comp-id="ionic-view.1">
+    <!--<ion-content data-comp-id="ionic-content.1"></ion-content>-->
+    <ion-content class="" data-comp-id="ionic-content.1" data-img="" scroll="false"
+        style="background-size: 100% 100%; background-image: url(&quot;images/BG.png&quot;);">
+        <div class="card nocolor-bg" data-comp-id="div.1" style="margin: 20% 5%;">
+            <div class="row" data-comp-id="row.1"
+                style="border-bottom: 1px solid rgb(238, 238, 238);">
+                <div class="col text-center" data-comp-id="column.1" style="padding: 10px 20px;"><img data-comp-id="image.1" data-img="" ng-src="images/FlexLogo2.png"
+                    style="width: 30%; margin: 10px;">
+                </div>
+            </div>
+            <div class="row" data-comp-id="row.2" style="margin: 20px 0px 0px;">
+                <div class="col" data-comp-id="column.2" style="padding: 12px;">
+                    <div class="" data-comp-id="row.3" ng-if="data.signInError"
+                        style="border-color: rgba(57, 102, 264, 0.150); border-width: 1px; border-style: solid; font-size: 14px; border-radius: 4px; text-align: center; margin: 10px 0px;">
+                        <i class="icon placeholder-icon assertive ion-android-warning"
+                            style="font-size: 24px;"></i>Sign in failed!</div>
+                    <label class="item item-input" data-comp-id="textInput.1"
+                        style="border-color: rgba(74, 129, 148, 0.298); border-width: 1px; border-style: solid; margin: 0px; border-radius: 4px;">
+                        <i class="icon placeholder-icon ion-ios-person" style="font-size: 24px;"></i>
+                        <input ng-model="data.username" placeholder="Username" type="text">
+                    </label>
+                    <label class="item item-input" data-comp-id="textInput.2"
+                        style="border-color: rgba(74, 129, 148, 0.298); border-width: 1px; border-style: solid; margin: 8px 0px; border-radius: 4px;">
+                        <i class="icon placeholder-icon ion-ios-locked" style="font-size: 24px;"></i>
+                        <input ng-model="data.password" placeholder="Password" type="password">
+                    </label>
+                </div>
+            </div>
+            <div class="row" data-comp-id="row.4" style="margin: 5% 0%;">
+                <div class="col" data-comp-id="column.3" style="padding: 12px;">
+                    <input class="button button-block button-energized" data-comp-id="button.1"
+                        ng-click="app.call('login.loginBasic', data);"
+                        style="border-color: rgba(255, 255, 255, 0); border-radius: 4px;" type="submit"
+                        value="Sign In">
+                </div>
+            </div>
+        </div>
+    </ion-content>
+</ion-view>

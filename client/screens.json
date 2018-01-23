@@ -1,11 +1,11 @@
 {
   "id": "app",
   "name": "webgmt",
-  "startScreen": "app.blank",
+  "startScreen": "app.login",
   "screens": [
     {
-      "id": "blank",
-      "name": "BLANK",
+      "id": "login",
+      "name": "login",
       "sourceAppId": "_blank",
       "sourceScreenId": "app.blank"
     },
