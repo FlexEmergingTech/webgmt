@@ -28,8 +28,8 @@
       "sourceAppId": "_blank"
     },
     {
-      "id": "blank",
-      "name": "BLANK",
+      "id": "detail",
+      "name": "detail",
       "sourceScreenId": "app.blank",
       "sourceAppId": "_blank"
     }
