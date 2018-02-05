@@ -1,1 +1,15 @@
-{}
+{
+  "detail": {
+    "type": "object",
+    "comment": "",
+    "properties": {
+      "detailsArray": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "properties": {}
+        }
+      }
+    }
+  }
+}
