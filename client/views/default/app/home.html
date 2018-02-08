@@ -9,7 +9,8 @@
     <ion-content class=" positive-bg" data-comp-id="ionic-content.1" style="">
         <div class="item item-icon-right light-bg light-border" data-comp-id="item.1"
             ng-click="app.go('app.detail')">
-            <div data-comp-id="text.1" style="font-style: normal; font-weight: bold;">Task Name</div>
+            <div data-comp-id="text.1" ng-bind="data.list.name"
+                style="font-style: normal; font-weight: bold;">Task Name</div>
             <div data-comp-id="text.2" style="width: 50%; font-style: normal;">Status</div>
             <div class=" text-right" data-comp-id="text.3"
                 style="width: 50%; float: right; margin: -6%; font-style: normal;">Due Date</div>
