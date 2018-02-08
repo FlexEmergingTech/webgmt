@@ -27,7 +27,7 @@
     },
     "ishome": {
       "type": "identifier",
-      "selector": "<body>"
+      "selector": "body"
     }
   },
   "connect": []
