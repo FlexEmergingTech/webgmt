@@ -34,9 +34,10 @@
   "connect": [
     {
       "match": [
+        "ishome",
         "ishome"
       ],
-      "event": "displayresult"
+      "event": "on_displayresult"
     }
   ]
 }
