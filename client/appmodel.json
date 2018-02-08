@@ -11,5 +11,31 @@
         }
       }
     }
+  },
+  "tasklist": {
+    "type": "object",
+    "comment": "",
+    "properties": {
+      "list": {
+        "type": "object",
+        "properties": {
+          "name": {
+            "type": "string"
+          },
+          "gatename": {
+            "type": "string"
+          },
+          "taskname": {
+            "type": "string"
+          },
+          "taskid": {
+            "type": "string"
+          },
+          "status": {
+            "type": "string"
+          }
+        }
+      }
+    }
   }
 }
