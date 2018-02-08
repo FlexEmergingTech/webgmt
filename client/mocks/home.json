@@ -1,149 +1,149 @@
 [
   {
-    "ProjectName": "MDA - 7750 20-PT GE MDA-XP - SFP, MDA - 7450 20-PT GE MDA-XP SFP",
-    "GateName": "Product Approval",
-    "TaskID": "3368",
+    "name": "MDA - 7750 20-PT GE MDA-XP - SFP, MDA - 7450 20-PT GE MDA-XP SFP",
+    "gatename": "Product Approval",
+    "taskid": "3368",
     "TaskName": "Test task",
-    "TaskStatus": 1
+    "status": 1
   },
   {
-    "ProjectName": "MDA - 7750 20-PT GE MDA-XP - SFP, MDA - 7450 20-PT GE MDA-XP SFP",
-    "GateName": "Opportunity to Concept",
-    "TaskID": "1683",
+    "name": "MDA - 7750 20-PT GE MDA-XP - SFP, MDA - 7450 20-PT GE MDA-XP SFP",
+    "gatename": "Opportunity to Concept",
+    "taskid": "1683",
     "TaskName": "Relationship matrix including decision makers and other key players updated",
-    "TaskStatus": 1
+    "status": 1
   },
   {
-    "ProjectName": "MDA - 7750 20-PT GE MDA-XP - SFP, MDA - 7450 20-PT GE MDA-XP SFP",
-    "GateName": "Opportunity to Concept",
-    "TaskID": "1684",
+    "name": "MDA - 7750 20-PT GE MDA-XP - SFP, MDA - 7450 20-PT GE MDA-XP SFP",
+    "gatename": "Opportunity to Concept",
+    "taskid": "1684",
     "TaskName": "Customer Account Plan approved",
-    "TaskStatus": 1
+    "status": 1
   },
   {
-    "ProjectName": "MDA - 7750 20-PT GE MDA-XP - SFP, MDA - 7450 20-PT GE MDA-XP SFP",
-    "GateName": "Opportunity to Concept",
-    "TaskID": "1685",
+    "name": "MDA - 7750 20-PT GE MDA-XP - SFP, MDA - 7450 20-PT GE MDA-XP SFP",
+    "gatename": "Opportunity to Concept",
+    "taskid": "1685",
     "TaskName": "All pertinent license agreement (s) with the customer, sub-contractor or supplier defined",
-    "TaskStatus": 1
+    "status": 1
   },
   {
-    "ProjectName": "MDA - 7750 20-PT GE MDA-XP - SFP, MDA - 7450 20-PT GE MDA-XP SFP",
-    "GateName": "Opportunity to Concept",
-    "TaskID": "1688",
+    "name": "MDA - 7750 20-PT GE MDA-XP - SFP, MDA - 7450 20-PT GE MDA-XP SFP",
+    "gatename": "Opportunity to Concept",
+    "taskid": "1688",
     "TaskName": "IPR (Intellectual Property Rights) issues been reviewed against the company IPR Process",
-    "TaskStatus": 1
+    "status": 1
   },
   {
-    "ProjectName": "MDA - 7750 20-PT GE MDA-XP - SFP, MDA - 7450 20-PT GE MDA-XP SFP",
-    "GateName": "Opportunity to Concept",
-    "TaskID": "1689",
+    "name": "MDA - 7750 20-PT GE MDA-XP - SFP, MDA - 7450 20-PT GE MDA-XP SFP",
+    "gatename": "Opportunity to Concept",
+    "taskid": "1689",
     "TaskName": "Business scope for the project and program defined",
-    "TaskStatus": 1
+    "status": 1
   },
   {
-    "ProjectName": "MDA - 7750 20-PT GE MDA-XP - SFP, MDA - 7450 20-PT GE MDA-XP SFP",
-    "GateName": "Opportunity to Concept",
-    "TaskID": "1690",
+    "name": "MDA - 7750 20-PT GE MDA-XP - SFP, MDA - 7450 20-PT GE MDA-XP SFP",
+    "gatename": "Opportunity to Concept",
+    "taskid": "1690",
     "TaskName": "Business case been calculated, reviewed and approved",
-    "TaskStatus": 1
+    "status": 1
   },
   {
-    "ProjectName": "MDA - 7750 20-PT GE MDA-XP - SFP, MDA - 7450 20-PT GE MDA-XP SFP",
-    "GateName": "Opportunity to Concept",
-    "TaskID": "1691",
+    "name": "MDA - 7750 20-PT GE MDA-XP - SFP, MDA - 7450 20-PT GE MDA-XP SFP",
+    "gatename": "Opportunity to Concept",
+    "taskid": "1691",
     "TaskName": "Project quotation been issued to customer",
-    "TaskStatus": 1
+    "status": 1
   },
   {
-    "ProjectName": "MDA - 7750 20-PT GE MDA-XP - SFP, MDA - 7450 20-PT GE MDA-XP SFP",
-    "GateName": "Opportunity to Concept",
-    "TaskID": "1697",
+    "name": "MDA - 7750 20-PT GE MDA-XP - SFP, MDA - 7450 20-PT GE MDA-XP SFP",
+    "gatename": "Opportunity to Concept",
+    "taskid": "1697",
     "TaskName": "Contract process started",
-    "TaskStatus": 1
+    "status": 1
   },
   {
-    "ProjectName": "MDA - 7750 20-PT GE MDA-XP - SFP, MDA - 7450 20-PT GE MDA-XP SFP",
-    "GateName": "Opportunity to Concept",
-    "TaskID": "1698",
+    "name": "MDA - 7750 20-PT GE MDA-XP - SFP, MDA - 7450 20-PT GE MDA-XP SFP",
+    "gatename": "Opportunity to Concept",
+    "taskid": "1698",
     "TaskName": "All possible VI solutions shared to the customer ",
-    "TaskStatus": 1
+    "status": 1
   },
   {
-    "ProjectName": "MDA - 7750 20-PT GE MDA-XP - SFP, MDA - 7450 20-PT GE MDA-XP SFP",
-    "GateName": "Opportunity to Concept",
-    "TaskID": "1699",
+    "name": "MDA - 7750 20-PT GE MDA-XP - SFP, MDA - 7450 20-PT GE MDA-XP SFP",
+    "gatename": "Opportunity to Concept",
+    "taskid": "1699",
     "TaskName": "Customer / product requirements clearly defined and sufficient to execute the concept phase",
-    "TaskStatus": 1
+    "status": 1
   },
   {
-    "ProjectName": "MDA - 7750 20-PT GE MDA-XP - SFP, MDA - 7450 20-PT GE MDA-XP SFP",
-    "GateName": "Opportunity to Concept",
-    "TaskID": "1700",
+    "name": "MDA - 7750 20-PT GE MDA-XP - SFP, MDA - 7450 20-PT GE MDA-XP SFP",
+    "gatename": "Opportunity to Concept",
+    "taskid": "1700",
     "TaskName": "Customer deliverables and follow up routines for the concept phase established with the customer",
-    "TaskStatus": 1
+    "status": 1
   },
   {
-    "ProjectName": "MDA - 7750 20-PT GE MDA-XP - SFP, MDA - 7450 20-PT GE MDA-XP SFP",
-    "GateName": "Opportunity to Concept",
-    "TaskID": "1702",
+    "name": "MDA - 7750 20-PT GE MDA-XP - SFP, MDA - 7450 20-PT GE MDA-XP SFP",
+    "gatename": "Opportunity to Concept",
+    "taskid": "1702",
     "TaskName": "Cost Reduction Tracker updated",
-    "TaskStatus": 1
+    "status": 1
   },
   {
-    "ProjectName": "MDA - 7750 20-PT GE MDA-XP - SFP, MDA - 7450 20-PT GE MDA-XP SFP",
-    "GateName": "Opportunity to Concept",
-    "TaskID": "1704",
+    "name": "MDA - 7750 20-PT GE MDA-XP - SFP, MDA - 7450 20-PT GE MDA-XP SFP",
+    "gatename": "Opportunity to Concept",
+    "taskid": "1704",
     "TaskName": "Target markets and logistic flow information available",
-    "TaskStatus": 1
+    "status": 1
   },
   {
-    "ProjectName": "MDA - 7750 20-PT GE MDA-XP - SFP, MDA - 7450 20-PT GE MDA-XP SFP",
-    "GateName": "Opportunity to Concept",
-    "TaskID": "1705",
+    "name": "MDA - 7750 20-PT GE MDA-XP - SFP, MDA - 7450 20-PT GE MDA-XP SFP",
+    "gatename": "Opportunity to Concept",
+    "taskid": "1705",
     "TaskName": "Quantity plan and schedule of sample demands (Operator Reference, Multi Purpose, Development, Type Approval) available",
-    "TaskStatus": 1
+    "status": 1
   },
   {
-    "ProjectName": "MDA - 7750 20-PT GE MDA-XP - SFP, MDA - 7450 20-PT GE MDA-XP SFP",
-    "GateName": "Opportunity to Concept",
-    "TaskID": "1706",
+    "name": "MDA - 7750 20-PT GE MDA-XP - SFP, MDA - 7450 20-PT GE MDA-XP SFP",
+    "gatename": "Opportunity to Concept",
+    "taskid": "1706",
     "TaskName": "All customers environmental specification documentation available and knowledge of their requirements",
-    "TaskStatus": 1
+    "status": 1
   },
   {
-    "ProjectName": "MDA - 7750 20-PT GE MDA-XP - SFP, MDA - 7450 20-PT GE MDA-XP SFP",
-    "GateName": "Opportunity to Concept",
-    "TaskID": "1707",
+    "name": "MDA - 7750 20-PT GE MDA-XP - SFP, MDA - 7450 20-PT GE MDA-XP SFP",
+    "gatename": "Opportunity to Concept",
+    "taskid": "1707",
     "TaskName": "Contact available with environmental issues considerations",
-    "TaskStatus": 1
+    "status": 1
   },
   {
-    "ProjectName": "MDA - 7750 20-PT GE MDA-XP - SFP, MDA - 7450 20-PT GE MDA-XP SFP",
-    "GateName": "Opportunity to Concept",
-    "TaskID": "1708",
+    "name": "MDA - 7750 20-PT GE MDA-XP - SFP, MDA - 7450 20-PT GE MDA-XP SFP",
+    "gatename": "Opportunity to Concept",
+    "taskid": "1708",
     "TaskName": "Contractual FFR targets defined and agreed upon with the customer",
-    "TaskStatus": 1
+    "status": 1
   },
   {
-    "ProjectName": "MDA - 7750 20-PT GE MDA-XP - SFP, MDA - 7450 20-PT GE MDA-XP SFP",
-    "GateName": "Opportunity to Concept",
-    "TaskID": "1709",
+    "name": "MDA - 7750 20-PT GE MDA-XP - SFP, MDA - 7450 20-PT GE MDA-XP SFP",
+    "gatename": "Opportunity to Concept",
+    "taskid": "1709",
     "TaskName": "Quality certificates required (ISO, QS, TS, Etc...)",
-    "TaskStatus": 1
+    "status": 1
   },
   {
-    "ProjectName": "MDA - 7750 20-PT GE MDA-XP - SFP, MDA - 7450 20-PT GE MDA-XP SFP",
-    "GateName": "Opportunity to Concept",
-    "TaskID": "1715",
+    "name": "MDA - 7750 20-PT GE MDA-XP - SFP, MDA - 7450 20-PT GE MDA-XP SFP",
+    "gatename": "Opportunity to Concept",
+    "taskid": "1715",
     "TaskName": "Interface, report structure and meeting schedule agreed with the customer",
-    "TaskStatus": 1
+    "status": 1
   },
   {
-    "ProjectName": "MDA - 7750 20-PT GE MDA-XP - SFP, MDA - 7450 20-PT GE MDA-XP SFP",
-    "GateName": "Opportunity to Concept",
-    "TaskID": "1721",
+    "name": "MDA - 7750 20-PT GE MDA-XP - SFP, MDA - 7450 20-PT GE MDA-XP SFP",
+    "gatename": "Opportunity to Concept",
+    "taskid": "1721",
     "TaskName": "Product Specification Sheet available",
-    "TaskStatus": 1
+    "status": 1
   }
 ]
