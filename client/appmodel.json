@@ -12,7 +12,7 @@
       }
     }
   },
-  "tasklist": {
+  "home": {
     "type": "object",
     "comment": "",
     "properties": {
