@@ -1,0 +1,33 @@
+{
+  "type": "object",
+  "comment": "",
+  "properties": {
+    "list": {
+      "type": "object",
+      "properties": {
+        "name": {
+          "type": "string",
+          "update": {
+            "type": "none"
+          }
+        },
+        "gatename": {
+          "type": "string"
+        },
+        "taskname": {
+          "type": "string"
+        },
+        "taskid": {
+          "type": "string"
+        },
+        "status": {
+          "type": "string"
+        }
+      }
+    },
+    "ishome": {
+      "type": "identifier"
+    }
+  },
+  "connect": []
+}
