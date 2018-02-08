@@ -27,7 +27,8 @@
     },
     "ishome": {
       "type": "identifier",
-      "selector": "body"
+      "selector": "body",
+      "control": "exists"
     }
   },
   "connect": []
