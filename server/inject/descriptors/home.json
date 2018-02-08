@@ -31,5 +31,12 @@
       "control": "exists"
     }
   },
-  "connect": []
+  "connect": [
+    {
+      "match": [
+        "ishome"
+      ],
+      "event": "displayresult"
+    }
+  ]
 }
