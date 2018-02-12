@@ -35,9 +35,10 @@
     {
       "match": [
         "ishome",
+        "ishome",
         "ishome"
       ],
-      "event": "on_displayresult"
+      "event": "displayresult"
     }
   ]
 }
