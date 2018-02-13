@@ -32,7 +32,8 @@
       "id": "detail",
       "name": "detail",
       "sourceScreenId": "app.blank",
-      "sourceAppId": "_blank"
+      "sourceAppId": "_blank",
+      "model": "detail"
     }
   ],
   "sourceAppId": "_blank",
