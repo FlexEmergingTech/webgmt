@@ -3,11 +3,24 @@
     "type": "object",
     "comment": "",
     "properties": {
-      "detailsArray": {
-        "type": "array",
-        "items": {
-          "type": "object",
-          "properties": {}
+      "detail": {
+        "type": "object",
+        "properties": {
+          "name": {
+            "type": "string"
+          },
+          "taskname": {
+            "type": "string"
+          },
+          "taskid": {
+            "type": "string"
+          },
+          "gatename": {
+            "type": "string"
+          },
+          "status": {
+            "type": "string"
+          }
         }
       }
     }
