@@ -10,7 +10,10 @@
             "type": "string"
           },
           "taskname": {
-            "type": "string"
+            "type": "string",
+            "update": {
+              "type": "none"
+            }
           },
           "taskid": {
             "type": "string"
