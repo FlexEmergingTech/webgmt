@@ -8,7 +8,7 @@
     </ion-nav-bar>
     <ion-content class=" positive-bg" data-comp-id="ionic-content.1" style="">
         <div class="item item-icon-right light-bg light-border" data-comp-id="item.1"
-            ng-click="app.go('app.detail')" ng-repeat="item in data.list">
+            ng-click="app.call('home.detail',item)" ng-repeat="item in data.list">
             <div data-comp-id="text.1" ng-bind="item.taskname"
                 style="font-style: normal; font-weight: bold;">Task Name</div>
             <div data-comp-id="text.2" ng-bind="item.gatename"
