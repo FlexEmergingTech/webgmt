@@ -59,5 +59,14 @@
         }
       }
     }
+  },
+  "home1": {
+    "type": "object",
+    "comment": "",
+    "properties": {
+      "select": {
+        "type": "string"
+      }
+    }
   }
 }
