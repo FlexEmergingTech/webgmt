@@ -31,9 +31,9 @@
                     <span class="input-label required">Task Status</span>
                 </label>
                 <select class="item  item-input item-select-icon positive-icon"
-                    data-comp-id="selectInput.1">
-                    <option>Closed</option>
-                    <option>OverDue</option>
+                    data-comp-id="selectInput.1" ng-model="statusSelect">
+                    <option value="closed">Closed</option>
+                    <option value="overdue">OverDue</option>
                 </select>
             </div>
         </div>
