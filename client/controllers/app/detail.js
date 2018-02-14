@@ -4,7 +4,7 @@ function app_detail($scope, app) {
   app.init($scope,function(data){
         console.log(data);
     });
-    function update_comment(){
+    var update_comment = function(){
         $scope.taskStatus
     }
 }
