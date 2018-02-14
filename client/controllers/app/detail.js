@@ -4,7 +4,7 @@ function app_detail($scope, app) {
   app.init($scope,function(data){
         console.log(data);
     });
-    function update(){
+   $scope.update = function(){
        alert("hi");
-    }
+   }
 }
