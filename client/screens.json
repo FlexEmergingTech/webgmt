@@ -39,7 +39,8 @@
       "id": "home1",
       "name": "home1",
       "sourceScreenId": "app.blank",
-      "sourceAppId": "_blank"
+      "sourceAppId": "_blank",
+      "model": "home1"
     }
   ],
   "sourceAppId": "_blank",
