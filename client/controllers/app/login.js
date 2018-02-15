@@ -3,6 +3,6 @@ function app_login($scope, app, $ionicLoading) {
     'use strict';
     app.init($scope);
    $scope.login = function(){
-       
+       app.call('home.login');
    }
 }
