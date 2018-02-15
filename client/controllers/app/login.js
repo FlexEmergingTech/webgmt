@@ -8,6 +8,6 @@ function app_login($scope, app, $ionicLoading) {
    $scope.login = function(){
        console.log($scope.data.username,$scope.data.password);
        $scope.crediantialsObj = { "username" : $scope.data.username, "password":$scope.data.password}
-       app.call('home.login');
+       app.call('home.login',$scope.crediantialsObj);
    }
 }
