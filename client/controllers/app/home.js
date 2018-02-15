@@ -3,6 +3,7 @@ function app_home($scope, app) {
     'use strict';
     app.init($scope,function(data){
         console.log(data);
+        
     });
     
 }
