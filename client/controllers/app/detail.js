@@ -9,7 +9,7 @@ function app_detail($scope, app) {
           {id:"0",label:"OverDue"},
           {id:"1",label:"Closed"},
           {id:"2",label:"Open"}];
-        console.log(data);
+        console.log($scope.data);
     });
    $scope.update = function(){
        alert($scope.taskId);
