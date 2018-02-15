@@ -5,6 +5,7 @@ function app_detail($scope, app) {
   app.init($scope,function(data){
       //$scope.comment = "test comment";
       $scope.object={};
+      $scope.paramObj = {}
       $scope.taskId = $scope.data.taskId;
       $scope.comment = "";
       $scope.object.status = [
@@ -16,6 +17,7 @@ function app_detail($scope, app) {
    $scope.update = function(){
       console.log($scope.data.comment);
       console.log($scope.data.taskId);
+      
        app.call('home.updateDetail',$scope.object.statusSelect,$scope.data.comment,$scope.data.taskId);
        //console.log($scope.object.statusSelect);
    }
