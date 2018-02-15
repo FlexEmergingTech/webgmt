@@ -31,8 +31,8 @@
                     <span class="input-label required">Task Status</span>
                 </label>
                 <select class="item  item-input item-select-icon positive-icon"
-                    data-comp-id="selectInput.1" ng-model="statusSelect"
-                    ng-options="item for item in status">
+                    data-comp-id="selectInput.1" ng-model="sel.statusSelect"
+                    ng-options="opt.label for opt in sel.status">
                     <option value="">Choose Status</option>
                 </select>
             </div>
