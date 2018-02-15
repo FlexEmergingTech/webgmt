@@ -11,10 +11,11 @@ function app_detail($scope, app) {
           {id:"0",label:"OverDue"},
           {id:"1",label:"Closed"},
           {id:"2",label:"Open"}];
-        console.log($scope.taskId);
+       // console.log($scope.taskId);
     });
    $scope.update = function(){
       console.log($scope.data.comment);
+      console.log($scope.taskId);
        app.call('home.updateDetail',$scope.object.statusSelect,$scope.comment,$scope.taskId);
        //console.log($scope.object.statusSelect);
    }
