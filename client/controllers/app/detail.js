@@ -1,7 +1,7 @@
 angular.module('app').controller('app_detail', app_detail);
 function app_detail($scope, app) {
     'use strict';
-    $scope.statusSelect = "select";
+    //$scope.statusSelect = "select";
   app.init($scope,function(data){
       
       $scope.status = ["OverDue","Closed"];
