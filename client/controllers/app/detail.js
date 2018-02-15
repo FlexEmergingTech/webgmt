@@ -12,5 +12,6 @@ function app_detail($scope, app) {
     });
    $scope.update = function(){
        alert($scope.object);
+       console.log($scope.object);
    }
 }
