@@ -3,6 +3,7 @@ function app_detail($scope, app) {
     'use strict';
     //$scope.statusSelect = "select";
   app.init($scope,function(data){
+      var comment = "";
       $scope.object={};
       $scope.taskId = $scope.data.taskId;
      // $scope.comment = "";
@@ -13,7 +14,7 @@ function app_detail($scope, app) {
         console.log($scope.data);
     });
    $scope.update = function(){
-       console.log($scope.comment);
+       
        app.call('home.updateDetail',$scope.object.statusSelect,$scope.comment,$scope.taskId);
        //console.log($scope.object.statusSelect);
    }
