@@ -3,14 +3,14 @@ function app_detail($scope, app) {
     'use strict';
     //$scope.statusSelect = "select";
   app.init($scope,function(data){
-      
-      $scope.status = [
-          {value:0,label:"OverDue"},
-          {value:1,label:"Closed"},
-          {value:2,label:"Open"}];
+      $scope.object={};
+      $scope.object.status = [
+          {id:"0",label:"OverDue"},
+          {id:"1",label:"Closed"},
+          {id:"2",label:"Open"}];
         console.log(data);
     });
    $scope.update = function(){
-       alert($scope.statusSelect);
+       alert($scope.object.id);
    }
 }
