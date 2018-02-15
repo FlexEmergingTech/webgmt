@@ -5,7 +5,7 @@ function app_detail($scope, app) {
   app.init($scope,function(data){
       $scope.object={};
       $scope.taskId = $scope.data.taskId;
-      $scope.comment = "";
+     // $scope.comment = "";
       $scope.object.status = [
           {id:"0",label:"OverDue"},
           {id:"1",label:"Closed"},
