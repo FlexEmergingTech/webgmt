@@ -12,7 +12,7 @@ function app_detail($scope, app) {
         console.log(data.taskId);
     });
    $scope.update = function(){
-       alert($scope.comment);
+       alert($scope.taskId);
        app.call('home.updateDetail',$scope.object.statusSelect,$scope.comment,$scope.taskId);
        //console.log($scope.object.statusSelect);
    }
