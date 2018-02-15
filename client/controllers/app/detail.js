@@ -24,4 +24,7 @@ function app_detail($scope, app) {
    $scope.cancel = function(){
        app.call('home.cancelDetail');
    }
+   $scope.redirect = function(){
+        app.call('home.loginRedirect');
+   }
 }
