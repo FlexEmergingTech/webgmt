@@ -21,4 +21,7 @@ function app_detail($scope, app) {
        app.call('home.updateDetail',$scope.paramObj);
        //alert($scope.data.popUp);
    }
+   $scope.cancel = function(){
+       app.call('home.cancelDetail');
+   }
 }
