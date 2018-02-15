@@ -16,7 +16,7 @@ function app_detail($scope, app) {
    $scope.update = function(){
       console.log($scope.data.comment);
       console.log($scope.taskId);
-       app.call('home.updateDetail',$scope.object.statusSelect,$scope.comment,$scope.taskId);
+       app.call('home.updateDetail',$scope.object.statusSelect,$scope.data.comment,$scope.taskId);
        //console.log($scope.object.statusSelect);
    }
 }
