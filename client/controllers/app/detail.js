@@ -11,6 +11,6 @@ function app_detail($scope, app) {
         console.log(data);
     });
    $scope.update = function(){
-       alert($scope.statusSelect.label);
+       alert($scope.statusSelect);
    }
 }
