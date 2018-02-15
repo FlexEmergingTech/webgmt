@@ -4,7 +4,7 @@ function app_detail($scope, app) {
     //$scope.statusSelect = "select";
   app.init($scope,function(data){
       $scope.object={};
-      $scope.taskId = "";
+      $scope.taskId = data.taskId;
       $scope.object.status = [
           {id:"0",label:"OverDue"},
           {id:"1",label:"Closed"},
