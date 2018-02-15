@@ -5,6 +5,7 @@ function app_detail($scope, app) {
   app.init($scope,function(data){
       $scope.object={};
       $scope.taskId = $scope.data.taskId;
+      $scope.comment = "";
       $scope.object.status = [
           {id:"0",label:"OverDue"},
           {id:"1",label:"Closed"},
@@ -12,7 +13,7 @@ function app_detail($scope, app) {
         console.log($scope.data);
     });
    $scope.update = function(){
-       alert($scope.taskId);
+       alert($scope.comment);
        app.call('home.updateDetail',$scope.object.statusSelect,$scope.comment,$scope.data.taskId);
        //console.log($scope.object.statusSelect);
    }
