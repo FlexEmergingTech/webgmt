@@ -14,7 +14,7 @@ function app_detail($scope, app) {
     });
    $scope.update = function(){
        alert($scope.comment);
-       app.call('home.updateDetail',$scope.object.statusSelect,$scope.comment,$scope.data.taskId);
+       app.call('home.updateDetail',$scope.object.statusSelect,$scope.comment,$scope.taskId);
        //console.log($scope.object.statusSelect);
    }
 }
