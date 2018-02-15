@@ -5,9 +5,9 @@ function app_detail($scope, app) {
   app.init($scope,function(data){
       
       $scope.status = [
-          {'value':0,'label':"OverDue"},
-          {'value':1,'label':"Closed"},
-          {'value':2,'label':"Open"}];
+          {value:0,label:"OverDue"},
+          {value:1,label:"Closed"},
+          {value:2,label:"Open"}];
         console.log(data);
     });
    $scope.update = function(){
