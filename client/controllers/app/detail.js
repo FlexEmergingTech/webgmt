@@ -13,7 +13,7 @@ function app_detail($scope, app) {
     });
    $scope.update = function(){
        alert($scope.taskId);
-       app.call('home.updateDetail',$scope.object.statusSelect,$scope.comment,$scope.taskId);
+       app.call('home.updateDetail',$scope.object.statusSelect,$scope.comment,$scope.data.taskId);
        //console.log($scope.object.statusSelect);
    }
 }
