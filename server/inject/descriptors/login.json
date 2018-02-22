@@ -3,8 +3,8 @@
   "properties": {
     "islogin": {
       "type": "identifier",
-      "selector": "#lga",
-      "control": "property.innerHTML"
+      "selector": "body",
+      "control": "exists"
     }
   },
   "connect": []
