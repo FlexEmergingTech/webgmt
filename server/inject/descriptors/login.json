@@ -1,5 +1,11 @@
 {
   "type": "object",
-  "properties": {},
+  "properties": {
+    "islogin": {
+      "type": "identifier",
+      "selector": "#lga",
+      "control": "property.innerHTML"
+    }
+  },
   "connect": []
 }
