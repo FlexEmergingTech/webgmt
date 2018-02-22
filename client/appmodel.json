@@ -71,5 +71,9 @@
         "type": "string"
       }
     }
+  },
+  "login": {
+    "type": "object",
+    "properties": {}
   }
 }
