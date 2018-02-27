@@ -3,9 +3,10 @@ function app_detail($scope, app) {
     'use strict';
     //$scope.statusSelect = "select";
   app.init($scope,function(data){
-      $scope.object.statusSelect = $scope.data.status;
+      
       //$scope.comment = "test comment";
       $scope.object={};
+      $scope.object.statusSelect = $scope.data.status;
       $scope.paramObj = {}
       $scope.taskId = $scope.data.taskId;
       $scope.comment = "";
