@@ -1,5 +1,5 @@
 angular.module('app').controller('app_login', app_login);
-function app_login($scope, app, $ionicLoading) {
+function app_login($scope, $window,app, $ionicLoading) {
     'use strict';
     
     app.init($scope,function(data){
@@ -8,7 +8,7 @@ function app_login($scope, app, $ionicLoading) {
    $scope.login = function(){
        
        $scope.crediantialsObj = { "username" : $scope.data.username, "password":$scope.data.password}
-      localStorage.setItem("username",$scope.data.username);
+      $window.localStorage.setItem("username",$scope.data.username);
        app.call('home.login',$scope.crediantialsObj);
    }
 }
