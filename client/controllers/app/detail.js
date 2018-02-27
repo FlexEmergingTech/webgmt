@@ -3,6 +3,7 @@ function app_detail($scope, app) {
     'use strict';
     //$scope.statusSelect = "select";
   app.init($scope,function(data){
+      $scope.object.statusSelect = $scope.data.status;
       //$scope.comment = "test comment";
       $scope.object={};
       $scope.paramObj = {}
@@ -13,7 +14,7 @@ function app_detail($scope, app) {
           {id:"1",label:"Closed"},
           {id:"2",label:"Open"}];
        // console.log($scope.taskId);
-       $scope.object.statusSelect = $scope.data.status;
+       
        alert($scope.data.status);
     });
    $scope.update = function(){
