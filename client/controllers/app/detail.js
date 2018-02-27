@@ -6,7 +6,7 @@ function app_detail($scope, app) {
       
       //$scope.comment = "test comment";
       $scope.object={};
-      $scope.object.statusSelect = $scope.data.status;
+     
       $scope.paramObj = {}
       $scope.taskId = $scope.data.taskId;
       $scope.comment = "";
@@ -15,7 +15,7 @@ function app_detail($scope, app) {
           {id:"1",label:"Closed"},
           {id:"2",label:"Open"}];
        // console.log($scope.taskId);
-       
+        $scope.object.statusSelect = $scope.data.status;
        alert($scope.data.status);
     });
    $scope.update = function(){
