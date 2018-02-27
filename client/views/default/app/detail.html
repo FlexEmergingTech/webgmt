@@ -29,9 +29,11 @@
                     <span class="input-label dlbl required">Task Status</span>
                 </label>
                 <select class="item  item-input item-select-icon positive-icon"
-                    data-comp-id="selectInput.1" ng-init="object.statusSelect = data.status"
+                    data-comp-id="selectInput.1" ng-init="data.status"
                     ng-model="object.statusSelect"
-                    ng-options="stat.id as stat.label for stat in object.status"></select>
+                    ng-options="stat.id as stat.label for stat in object.status">
+                    <!-- <option value="">Choose Status</option>-->
+                </select>
             </div>
         </div>
         <div class="row row_box" data-comp-id="row.5">
