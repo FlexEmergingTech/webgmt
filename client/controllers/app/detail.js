@@ -14,7 +14,7 @@ function app_detail($scope, app) {
           {id:"2",label:"Open"}];
        // console.log($scope.taskId);
        $scope.object.statusSelect = $scope.data.status;
-       //alert($scope.data.status);
+       alert($scope.data.status);
     });
    $scope.update = function(){
       console.log($scope.data.comment);
