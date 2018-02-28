@@ -1,6 +1,6 @@
 {
   "name": "webgmt",
-  "version": "5.2.10-chrome",
+  "version": "5.2.10",
   "private": true,
   "description": "PowWow transformation",
   "main": "start.js",
