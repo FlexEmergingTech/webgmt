@@ -11,15 +11,16 @@ var username;
  */
 exports.login = function(page,param){
 	var xmlhttp = new XMLHttpRequest();	
-    var url = "https://testmobile.flextronics.com/Hackathon/LDAPAuth.php";   
+    var url = "https://testmobile.flextronics.com/loginApi/LDAPAuth.php";   
 	var encoded = encodeURI(param.password);
 	//console.log(encoded);
 	var params ="username="+param.username+"&password="+param.password;   //params comming from front end....
     xmlhttp.onreadystatechange = function() {        
         if (this.readyState == 4 && this.status == 200) {
-            var response = this.responseText.split(",");   
-				//console.log(this.responseText);
-				if(response[0] == "loginsuccess"){
+			var response1 = JSON.parse(this.responseText);
+           // var response = this.responseText.split(",");   
+				console.log(response1['valid']);
+				if(response1['valid'] == "loginsuccess"){
 					username = param.username;
 					
 					//username = "gssvenra";
