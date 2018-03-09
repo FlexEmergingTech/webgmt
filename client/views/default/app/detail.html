@@ -38,6 +38,13 @@
                     ng-options="stat.id as stat.label for stat in object.status">
                     <option value="">Choose Status</option>
                 </select>
+                <label class="item item-input item-select-icon positive-icon"
+                    data-comp-id="selectInput.1">
+                    <select ng-model="object.statusSelect"
+                        ng-options="stat.id as stat.label for stat in object.status">
+                        <option value="">Choose Status</option>
+                    </select>
+                </label>
             </div>
         </div>
         <div class="row row_box" data-comp-id="row.6">
