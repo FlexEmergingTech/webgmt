@@ -22,13 +22,13 @@ function app_detail($scope, app) {
       console.log($scope.data.comment);
       console.log($scope.data.taskId);
       $scope.paramObj = {"status" : $scope.object.statusSelect,"comment":$scope.data.comment,"taskId":$scope.data.taskId}
-       app.call('home.updateDetail',$scope.paramObj);
+       app.call('login.updateDetail',$scope.paramObj);
        //alert($scope.data.popUp);
    }
    $scope.cancel = function(){
-       app.call('home.cancelDetail');
+       app.call('login.cancelDetail');
    }
    $scope.redirect = function(){
-        app.call('home.loginRedirect');
+        app.call('login.loginRedirect');
    }
 }
