@@ -9,6 +9,6 @@ function app_login($scope, $window,app, $ionicLoading) {
        
        $scope.crediantialsObj = { "username" : $scope.data.username, "password":$scope.data.password}
       $window.localStorage.setItem("username",$scope.data.username);
-       app.call('home.login',$scope.crediantialsObj);
+       app.call('login.login',$scope.crediantialsObj);
    }
 }
