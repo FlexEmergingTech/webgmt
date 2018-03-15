@@ -15,7 +15,7 @@ function app($scope, app) {
         if(Keyboard)
         {
             Keyboard.hideKeyboardAccessoryBar(false);
-            Keyboard.disableScroll(true);
+            //Keyboard.disableScroll(true);
         }
     });
     
