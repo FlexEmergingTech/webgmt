@@ -74,6 +74,19 @@
   },
   "login": {
     "type": "object",
-    "properties": {}
+    "properties": {
+      "username": {
+        "type": "string"
+      },
+      "password": {
+        "type": "string"
+      },
+      "submit": {
+        "type": "action"
+      },
+      "errorMessage": {
+        "type": "string"
+      }
+    }
   }
 }
