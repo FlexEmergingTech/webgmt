@@ -4,6 +4,13 @@
   "startScreen": "app.login",
   "screens": [
     {
+      "id": "login",
+      "name": "login",
+      "sourceAppId": "_blank",
+      "sourceScreenId": "app.blank",
+      "model": "login"
+    },
+    {
       "id": "menu",
       "name": "menu",
       "sourceAppId": "_blank",
@@ -28,13 +35,6 @@
       "sourceScreenId": "app.blank",
       "sourceAppId": "_blank",
       "model": "detail"
-    },
-    {
-      "id": "login",
-      "name": "login",
-      "sourceAppId": "_blank",
-      "sourceScreenId": "app.blank",
-      "model": "login"
     },
     {
       "id": "home1",
