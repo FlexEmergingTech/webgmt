@@ -10,6 +10,13 @@
       "sourceScreenId": "app.menu"
     },
     {
+      "id": "login",
+      "name": "login",
+      "sourceAppId": "_blank",
+      "sourceScreenId": "app.blank",
+      "model": "login"
+    },
+    {
       "id": "multiselect",
       "name": "multiselect",
       "sourceAppId": "_blank",
@@ -35,13 +42,6 @@
       "sourceScreenId": "app.blank",
       "sourceAppId": "_blank",
       "model": "home1"
-    },
-    {
-      "id": "login",
-      "name": "login",
-      "sourceAppId": "_blank",
-      "sourceScreenId": "app.blank",
-      "model": "login"
     }
   ],
   "sourceAppId": "_blank",
