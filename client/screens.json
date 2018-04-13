@@ -42,6 +42,12 @@
       "sourceScreenId": "app.blank",
       "sourceAppId": "_blank",
       "model": "home1"
+    },
+    {
+      "id": "project",
+      "name": "project",
+      "sourceScreenId": "app.blank",
+      "sourceAppId": "_blank"
     }
   ],
   "sourceAppId": "_blank",
