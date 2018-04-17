@@ -2,16 +2,14 @@ angular.module('app').controller('app_home', app_home);
 function app_home($scope,$window, app) {
     'use strict';
     app.init($scope,function(data){
-        console.log("data",$scope.data);
-          $scope.crediantialsObj = {};
+        console.log("user name: ",$window.localStorage.getItem('username'));
+          $scope.taskObj = {};
     });
     $scope.login = function () {
-        $scope.crediantialsObj = {
-            'username': $scope.data.username,
-            'password': $scope.data.password
+        $scope.taskObj = {
+            'username': $window.localStorage.getItem('username'),
         };
-        $window.localStorage.setItem('username', $scope.data.username);
-        app.call('login.login', $scope.crediantialsObj);
+        app.call('login.taskUpdate', $scope.taskObj);
     };
     
 }
