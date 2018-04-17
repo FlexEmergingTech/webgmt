@@ -14,7 +14,7 @@ function app_detail($scope, app) {
           {id:"0",label:"OverDue"},
           {id:"1",label:"Closed"},
           {id:"2",label:"Open"}];
-       // console.log($scope.taskId);
+       // console.log($scope.data.status);
         //$scope.object.statusSelect = $scope.data.status;
       // alert($scope.data.status);
     });
