@@ -3,6 +3,7 @@ function app_home($scope,$window, app) {
     'use strict';
     app.init($scope,function(data){
         console.log("data",$scope.data);
+                console.log("user name: ",$window.localStorage.getItem('username'));
           $scope.taskObj = {};
     });
     $scope.login = function () {
