@@ -5,7 +5,6 @@ function app_home($scope,$window, app) {
         console.log("data",$scope.data.list);
                 console.log("user name: ",$window.localStorage.getItem('username'));
           var username = $window.localStorage.getItem('username');
-          console.log("id",item.id);
     });
     
 }
