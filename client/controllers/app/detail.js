@@ -22,7 +22,7 @@ function app_detail($scope, app) {
       console.log($scope.data.comment);
       console.log($scope.data.taskId);
       $scope.paramObj = {"status" : $scope.object.statusSelect,"comment":$scope.data.comment,"taskId":$scope.data.taskId}
-       app.call('login.updateDetail',$scope.paramObj);
+       app.call('login.projectList',$scope.paramObj);
        //alert($scope.data.popUp);
    }
    $scope.cancel = function(){
