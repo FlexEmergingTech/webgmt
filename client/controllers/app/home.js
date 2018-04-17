@@ -5,7 +5,15 @@ function app_home($scope,$window, app) {
         console.log("data",$scope.data.list);
                 console.log("user name: ",$window.localStorage.getItem('username'));
           var username = $window.localStorage.getItem('username');
-          
+          $scope.listObj = {};
     });
+        $scope.task = function () {
+        $scope.listObj = {
+            'username': $window.localStorage.getItem('username'),
+            'item': item
+        };
+        $window.localStorage.setItem('username', $scope.data.username);
+        app.call('login.taskList', $scope.listObj);
+    };
     
 }
