@@ -8,6 +8,7 @@ function app_home($scope,$window, app) {
           $scope.listObj = {};
     });
         $scope.task = function () {
+            console.log("item",item)
         $scope.listObj = {
             'username': $window.localStorage.getItem('username'),
             'item': item
