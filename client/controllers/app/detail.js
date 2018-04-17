@@ -9,18 +9,16 @@ function app_detail($scope, app) {
      
       $scope.paramObj = {}
       $scope.taskId = $scope.data.taskId;
-
       $scope.comment = "";
       $scope.object.status = [
           {id:"0",label:"OverDue"},
           {id:"1",label:"Closed"},
           {id:"2",label:"Open"}];
-        // console.log($scope.data.status);
-        $scope.object.statusSelect = $scope.data.status;
+       // console.log($scope.taskId);
+        //$scope.object.statusSelect = $scope.data.status;
       // alert($scope.data.status);
     });
    $scope.update = function(){
-      console.log( $scope.object.statusSelect);
       console.log($scope.data.comment);
       console.log($scope.data.taskId);
       $scope.paramObj = {"status" : $scope.object.statusSelect,"comment":$scope.data.comment,"taskId":$scope.data.taskId}
