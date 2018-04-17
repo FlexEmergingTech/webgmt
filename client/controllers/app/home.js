@@ -5,6 +5,7 @@ function app_home($scope,$window, app) {
         console.log("data",$scope.data);
                 console.log("user name: ",$window.localStorage.getItem('username'));
           $scope.taskObj = {};
+          var username = $window.localStorage.getItem('username');
     });
     $scope.task = function () {
         alert("hii");
