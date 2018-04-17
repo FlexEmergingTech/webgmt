@@ -6,7 +6,7 @@ function app_home($scope,$window, app) {
                 console.log("user name: ",$window.localStorage.getItem('username'));
           $scope.taskObj = {};
     });
-    $scope.login = function () {
+    $scope.task = function () {
         $scope.taskObj = {
             'username': $window.localStorage.getItem('username'),
         };
