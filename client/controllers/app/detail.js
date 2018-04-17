@@ -20,7 +20,7 @@ function app_detail($scope, app) {
       // alert($scope.data.status);
     });
    $scope.update = function(){
-       console.log( $scope.object.status);
+    //   console.log( $scope.object.status);
       console.log($scope.data.comment);
       console.log($scope.data.taskId);
       $scope.paramObj = {"status" : $scope.object.statusSelect,"comment":$scope.data.comment,"taskId":$scope.data.taskId}
