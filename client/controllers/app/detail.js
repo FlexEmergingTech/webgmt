@@ -7,7 +7,7 @@ function app_detail($scope, app) {
       //$scope.comment = "test comment";
       $scope.object={};
      
-      $scope.paramObj = {}
+      $scope.paramObj = {};
       $scope.taskId = $scope.data.taskId;
       $scope.comment = "";
       $scope.object.status = [
