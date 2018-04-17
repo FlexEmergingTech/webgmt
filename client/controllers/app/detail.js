@@ -6,7 +6,7 @@ function app_detail($scope, app) {
       
       //$scope.comment = "test comment";
       $scope.object={};
-     console.log("staus",$scope.data.status);
+     
       $scope.paramObj = {}
       $scope.taskId = $scope.data.taskId;
       $scope.comment = "";
@@ -15,14 +15,14 @@ function app_detail($scope, app) {
           {id:"1",label:"Closed"},
           {id:"2",label:"Open"}];
        // console.log($scope.taskId);
-        $scope.object.statusSelect = "OverDue";
+        //$scope.object.statusSelect = $scope.data.status;
       // alert($scope.data.status);
     });
    $scope.update = function(){
       console.log($scope.data.comment);
       console.log($scope.data.taskId);
       $scope.paramObj = {"status" : $scope.object.statusSelect,"comment":$scope.data.comment,"taskId":$scope.data.taskId}
-       app.call('login.',$scope.paramObj);
+       app.call('login.updateDetail',$scope.paramObj);
        //alert($scope.data.popUp);
    }
    $scope.cancel = function(){
