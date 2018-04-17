@@ -1,4 +1,22 @@
-<ion-view data-comp-id="ionic-view.1">
-    <ion-content data-comp-id="ionic-content.1">
+<ion-view class="headbg" data-comp-id="ionic-view.1">
+    <ion-nav-bar align-title="center" class=" head_bg" data-comp-id="nav-bar.1">
+        <ion-nav-buttons side="left">
+            <button class="button button-icon ion-navicon head_btn" data-comp-id="button.1"
+                ng-click="app.showMenu()"></button>
+        </ion-nav-buttons>
+        <ion-nav-title data-comp-id="nav-title.1">Task page</ion-nav-title>
+        <ion-nav-buttons side="right"></ion-nav-buttons>
+    </ion-nav-bar>
+    <ion-content class=" positive-bg" data-comp-id="ionic-content.1"
+        style="padding:10px">
+        <div class="item  light-bg light-border list_box" data-comp-id="item.1"
+            ng-click="app.call('login.detail',item)" ng-repeat="item in data.list">
+            <div data-comp-id="text.1" ng-bind="item.taskname"
+                style="font-style: normal; font-weight:500; color:#111; width:100%;overflow: hidden;  ">Task Name</div>
+            <div data-comp-id="text.2" ng-bind="item.gatename"
+                style="width: 50%; font-style: normal; color:#666; font-size:13px;">Status</div>
+            <div data-comp-id="text.3" ng-bind="item.status"
+                style="padding:3px;width: 70px;text-align:center;margin: 2px 0;border-radius:2px; font-style: normal; background:{{item.color}}; color:#fff; font-size:13px;">Status</div>
+        </div>
     </ion-content>
 </ion-view>
