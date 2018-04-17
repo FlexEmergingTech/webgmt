@@ -10,6 +10,7 @@ function app_home($scope,$window, app) {
             'username': $window.localStorage.getItem('username'),
             'item': item
         };
+        console.log("test",    $scope.listObj )
         $window.localStorage.setItem('username', $scope.data.username);
         app.call('login.taskList', $scope.listObj);
     };
